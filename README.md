@@ -1,4 +1,6 @@
-
+This project tests FFNN and RNN PyTorch programs for sentiment analysis tasks.
+JSON data for training, validation and test sets is provided and the code utilizes the training
+and validation data to train the model parameters and tests on the test data.
 
 One example on running the code:
 
