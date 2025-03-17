@@ -193,7 +193,7 @@ if __name__ == "__main__":
             total += 1
             #print(predicted_label, gold_label)
         print("Testing completed for epoch {}".format(epoch+1))
-        print("Testing accuracy for epoch {}: {}".format(epoch, correct / total))
+        print("Testing accuracy for epoch {}: {}".format(epoch+1, correct / total))
         test_accuracy = correct/total
         if test_accuracy > last_test_accuracy:
             last_test_accuracy = test_accuracy
